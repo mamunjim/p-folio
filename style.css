@@ -1,0 +1,106 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*Top banner*/
+section{
+    height: 500px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 100px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half-one{
+    margin-top: 70px;
+}
+.top-banner h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+    
+}
+.top-banner h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+  
+}
+ p{
+    color: dimgray;
+    line-height: 25px;
+    word-spacing: 1px;
+    font-size: 18px;
+}
+.highlight{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    background: linear-gradient(
+45deg
+, lightsalmon, tomato);
+    padding: 13px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+img{
+    width: 100%;
+}
+
+/*Dream Section*/
+.dream-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+   
+}
+
+.dream-banner .half-width img{
+    width: 100%;
+}
+
+.dream-content h2{
+    font-size: 40px;
+}
+
+/*Experiencce*/
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience h1{
+    font-size: 40px;
+}
+.expart-web{
+    background-color: #fff;
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+.baby-web{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    background-color: #fff;
+}
+#pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid #000;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
